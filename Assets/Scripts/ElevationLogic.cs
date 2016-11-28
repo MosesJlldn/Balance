@@ -11,7 +11,7 @@ public class ElevationLogic : MonoBehaviour {
 
 		rb = GetComponent<Rigidbody> ();
 		rb.freezeRotation = true;
-		forceValue = 0f;
+		forceValue = 2.5f;
 	}
 	
 	// Update is called once per frame
@@ -26,10 +26,6 @@ public class ElevationLogic : MonoBehaviour {
 
 			forceValue = 0;
 			rb.constraints = RigidbodyConstraints.FreezeAll;
-		}
-		if (col.CompareTag ("Ball")) {
-
-			forceValue = 2;
 		}
 	}
 }

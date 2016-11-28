@@ -1,18 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Elavation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Life.cs">
     <Files>
       <File FileName="Assets\Scripts\PickingUp.cs" Line="35" Column="17" />
-      <File FileName="Assets\Scripts\Spawning.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawning.cs" Line="36" Column="48" />
       <File FileName="Assets\Scripts\CheckPointPassing.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Elavation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Transformation.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Ending.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ScoreText.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Level1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Pause.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ending.cs" Line="2" Column="1" />
+      <File FileName="Assets\Scripts\ScoreText.cs" Line="15" Column="73" />
+      <File FileName="Assets\Scripts\Level1.cs" Line="8" Column="2" />
+      <File FileName="Assets\Scripts\Pause.cs" Line="10" Column="2" />
       <File FileName="Assets\Scripts\Life.cs" Line="23" Column="58" />
-      <File FileName="Assets\Scripts\ElevationLogic.cs" Line="32" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

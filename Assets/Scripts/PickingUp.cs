@@ -32,7 +32,7 @@ public class PickingUp : MonoBehaviour {
 
 		if (col.gameObject.tag.Equals("Life")) {
 
-			if (lifes < 2) {
+			if (lifes < 3) {
 
 				lifes += Life.life;
 				lifeCounter ();
