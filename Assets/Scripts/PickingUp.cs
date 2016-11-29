@@ -32,7 +32,7 @@ public class PickingUp : MonoBehaviour {
 
 		if (col.gameObject.tag.Equals("Life")) {
 
-			if (lifes < 3) {
+			if (lifes < 2) {
 
 				lifes += Life.life;
 				lifeCounter ();
@@ -53,8 +53,9 @@ public class PickingUp : MonoBehaviour {
 				lifes--;
 				lifeCounter ();
 			} 
-			if (lifes == 0){
+			if (lifes == 0) {
 
+				score = 0;
 				SceneManager.LoadScene ("Menu", LoadSceneMode.Single);
 			}
 		}
